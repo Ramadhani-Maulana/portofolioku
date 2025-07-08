@@ -2,7 +2,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../src/assets/fotokuu.jpg";
-import CV from "../../src/assets/CV Ramadhani Maulana Raharjo.pdf"
+import CV from "../../src/assets/CV RAMADHANI MAULANA RAHARJO.pdf"
 import Info from './Info';
 
 const About = () => {
