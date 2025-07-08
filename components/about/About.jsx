@@ -2,7 +2,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../src/assets/fotokuu.jpg";
-import CV from "../../src/assets/CV RAMADHANI MAULANA RAHARJO.pdf"
+import CV from "../../src/assets/CV Ramadhani Maulana Raharjo.pdf"
 import Info from './Info';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
             <Info />
 
             <p className="about__description">I am an Information Technology student at Brawijaya University with a deep interest in <strong> Quality Assurance Testing, IT Support, Frontend Web Development,</strong> and <strong>UI UX Designer.</strong> I enjoy taking on complex challenges and am constantly looking for opportunities to apply my skills directly through real projects.</p>
-            <p className="about__description">Throughout my journey, I have developed skills in <strong>leadership, team collaboration,</strong> and <strong>problem solving.</strong>I believe that the learning process never stops, and I am enthusiastic about continuing to grow alongside a strong and committed team. 
+            <p className="about__description">Throughout my journey, I have developed skills in <strong>leadership, team collaboration,</strong> and <strong>problem solving.</strong> I believe that the learning process never stops, and I am enthusiastic about continuing to grow alongside a strong and committed team. 
               My commitment is to make a real impact through technology, with a passion for sustainable growth, innovation, and adding value at every turn in the company.</p>
 
             <a download="" href={CV} className="button button--flex">Download CV 

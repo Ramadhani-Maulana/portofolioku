@@ -58,7 +58,7 @@ export const projectsData = [
 	{
 		id: 6,
 		image: Work6,
-		title: 'Creating the UI Design for Tumpak Sewu Waterfall Online Booking | FIGMA',
+		title: 'Creating the UI Design for Tumpak Sewu Waterfall Online Booking | #FIGMA',
 		category: 'Design',
 		demoUrl: '#',
 		sourceUrl: '#',

@@ -2,7 +2,7 @@
     position: relative;
     min-height: 100vh;
     overflow: hidden;
-    background: linear-gradient(135deg, #82c1ff 0%, #82c1ff  50%, #82c1ff  100%);
+    background: linear-gradient(135deg, #62aef9 0%, #62aef9  50%, #62aef9  100%);
 }
 
 .parallax-container {
@@ -28,22 +28,22 @@
 }
 
 .layer-1 {
-    background: radial-gradient(circle at 50% 50%, rgba(255, 87, 87, 0.15), transparent 70%);
+    background: radial-gradient(circle at 50% 50%, rgb(255, 95, 95), transparent 70%);
     transform: translateZ(-1px) scale(2);
 }
 
 .layer-2 {
-    background: linear-gradient(45deg, rgba(255, 87, 87, 0.1), rgba(255, 192, 67, 0.05));
+    background: linear-gradient(45deg, rgb(255, 95, 95), rgb(255, 95, 95));
     transform: translateZ(-2px) scale(3);
 }
 
 .layer-3 {
-    background: radial-gradient(circle at 30% 70%, rgba(255, 192, 67, 0.08), transparent 60%);
+    background: radial-gradient(circle at 30% 70%, rgb(255, 95, 95), transparent 60%);
     transform: translateZ(-3px) scale(4);
 }
 
 .layer-4 {
-    background: linear-gradient(135deg, rgba(255, 87, 87, 0.05), transparent);
+    background: linear-gradient(135deg, rgb(255, 95, 95), transparent);
     transform: translateZ(-4px) scale(5);
 }
 
@@ -75,8 +75,8 @@
     position: relative;
     z-index: 50;
     animation: profile__animate 5s ease-in-out infinite 1s;
-    box-shadow: 0 0 80px rgb(255, 83, 83);;
-    border: 5px solid rgb(255, 83, 83);
+    box-shadow: 0 0 80px rgb(255, 95, 95);;
+    border: 5px solid rgb(255, 95, 95);
 }
 
 .home__img-glow {
@@ -86,7 +86,7 @@
     transform: translate(-50%, -50%);
     width: 100%;
     aspect-ratio: 1;
-    background: radial-gradient(circle, rgba(255, 87, 87, 0.2) 0%, transparent 70%);
+    background: radial-gradient(circle, rgb(255, 95, 95) 0%, transparent 70%);
     border-radius: 50%;
     z-index: 1;
     animation: glow__animate 4s ease-in-out infinite;
@@ -126,7 +126,7 @@
 
 .home__social-icon {
     font-size: 1.55rem;
-    color: #2c2c2c;
+    color: #000000;
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.1);
     padding: 0.5rem;
@@ -135,7 +135,7 @@
 }
 
 .home__social-icon:hover {
-    color: #ff5d5d;
+    color: #ff8080;
     transform: translateY(-3px);
     background: rgba(255, 255, 255, 0.2);
 }
@@ -169,7 +169,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(42, 39, 39, 0.9);
 }
 
 .home__subtitle::before {
@@ -177,7 +177,7 @@
     position: absolute;
     width: 70px;
     height: 2px;
-    background: linear-gradient(90deg, #000000, transparent);
+    background: linear-gradient(90deg, rgb(255, 95, 95), transparent);
     left: 0;
     top: 1rem;
 }
@@ -185,7 +185,7 @@
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(19, 19, 19, 0.8);
     line-height: 1.8;
 }
 
@@ -223,7 +223,7 @@
 }
 
 .home__scroll-name {
-    color: #ff5757;
+    color: #ff8080;
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -231,7 +231,7 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: #ff5757;
+    color: #ff8080;
 }
 
 @media screen and (max-width: 992px) {
