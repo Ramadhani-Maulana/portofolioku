@@ -1,0 +1,66 @@
+.exp__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1.8rem;
+  padding: 1rem;
+}
+
+.exp__content {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--container-color);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.exp__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exp__form-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 1rem;
+  color: var(--title-color);
+}
+
+.exp__input,
+.exp__textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: white;
+  color: var(--text-color);
+  resize: none;
+}
+
+.exp__textarea {
+  min-height: 100px;
+}
+
+.exp__form-button {
+  padding: 0.75rem 1rem;
+  background-color: var(--title-color);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exp__form-button:hover {
+  background-color: var(--title-color-dark);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .exp__container {
+    grid-template-columns: 1fr;
+  }
+}
