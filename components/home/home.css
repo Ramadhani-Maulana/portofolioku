@@ -2,7 +2,7 @@
     position: relative;
     min-height: 100vh;
     overflow: hidden;
-    background: linear-gradient(135deg, #62aef9 0%, #62aef9  50%, #62aef9  100%);
+    background: linear-gradient(135deg, #b1b1b1 0%, #b1b1b1  50%, #b1b1b1  100%);
 }
 
 .parallax-container {
