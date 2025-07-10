@@ -9,6 +9,9 @@ import Work8 from '../../src/assets/Work8.png';
 import Work9 from '../../src/assets/Work9.png';
 import Work10 from '../../src/assets/Work10.png';
 import Work11 from '../../src/assets/Work11.png';
+import Work12 from '../../src/assets/Work12.png';
+import Work13 from '../../src/assets/Work13.png';
+import Work14 from '../../src/assets/Work14.png';
 
 
 export const projectsData = [
@@ -65,6 +68,30 @@ export const projectsData = [
 	},
 	{
 		id: 7,
+		image: Work12,
+		title: 'Creating the UI Design Brawijaya Transport | #FIGMA',
+		category: 'Design',
+		demoUrl: '#',
+		sourceUrl: '#',
+	},
+	{
+		id: 8,
+		image: Work13,
+		title: 'Creating the User interface Design Web SI-Relasi Volunteer | #FIGMA',
+		category: 'Design',
+		demoUrl: '#',
+		sourceUrl: '#',
+	},
+	{
+		id: 9,
+		image: Work14,
+		title: 'Creating the User interface Design Mobile App DuroClick! | #FIGMA',
+		category: 'Design',
+		demoUrl: '#',
+		sourceUrl: '#',
+	},
+	{
+		id: 10,
 		image: Work7,
 		title: 'Instagram Feed Design for the Introduction of the IT CHARITY 2024 Organising Committee in the Work Programme of the HMPSTI Advokesma Department | #CANVA',
 		category: 'Design',
@@ -73,7 +100,7 @@ export const projectsData = [
 		
 	},
 	{
-		id: 8,
+		id: 11,
 		image: Work8,
 		title: 'IT CHARITY 2024 Banner Design for the Work Programme of the Advokesma Department of HMPSTI | #CANVA',
 		category: 'Design',
@@ -81,7 +108,7 @@ export const projectsData = [
 		sourceUrl: '#',
 	},
 	{
-		id: 9,
+		id: 12,
 		image: Work9,
 		title: 'Poster Design for the Work Programme of the Advokesma Department of HMPSTI (IT CHARITY 2024) | #CANVA',
 		category: 'Design',
@@ -89,7 +116,7 @@ export const projectsData = [
 		sourceUrl: '#',
 	},
 	{
-		id: 10,
+		id: 13,
 		image: Work10,
 		title: 'Creating an Instagram Feed Design for the Documentation of IT CHARITY 2024 Work Programme of the HMPSTI Advokesma Department | #CANVA',
 		category: 'Design',
@@ -97,7 +124,7 @@ export const projectsData = [
 		sourceUrl: '#',
 	},
 	{
-		id: 11,
+		id: 14,
 		image: Work11,
 		title: 'Designing the SEAVO Banner for the HMPSTI Advokesma Department Work Programme | #CANVA',
 		category: 'Design',
