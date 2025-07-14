@@ -17,9 +17,10 @@ const About = () => {
           <div className="about__data">
             <Info />
 
-            <p className="about__description">I am an Information Technology student at Brawijaya University with a deep interest in <strong> Quality Assurance Testing, IT Support, Frontend Web Development,</strong> and <strong>UI UX Designer.</strong> I enjoy taking on complex challenges and am constantly looking for opportunities to apply my skills directly through real projects.</p>
-            <p className="about__description">Throughout my journey, I have developed skills in <strong>leadership, team collaboration,</strong> and <strong>problem solving.</strong> I believe that the learning process never stops, and I am enthusiastic about continuing to grow alongside a strong and committed team. 
-              My commitment is to make a real impact through technology, with a passion for sustainable growth, innovation, and adding value at every turn in the company.</p>
+            <p className="about__description">Hello, everyone! My name is Dhani, a student of Information Technology at Brawijaya University, and I am actively involved in student organizations, with a strong interest in <strong>Quality Assurance Testing, IT Support, Frontend Web Development</strong>, and <strong>UI/UX Design</strong>. My journey in the field of technology is driven by curiosity and a desire to solve real-world problems through technology.</p>
+            <p className="about__description">I thrive in collaborative environments and enjoy complex challenges that push me to grow. Through academic and organization experiences, I have honed my <strong>problem-solving, leadership</strong>, and <strong>teamwork skills</strong>, which I bring to every project I undertake.</p>
+            <p className="about__description">Beyond technical skills, I believe in continuous learning and strive to add meaningful value wherever I contribute. I am passionate about building solutions that are not only innovative but also sustainable and impactful for users and organizations.</p>
+            <p className="about__description">Currently, I am seeking opportunities to apply and develop my skills through practical projects, internships, or collaborations with visionary teams. Whether in QA, IT Support, frontend, or design, I am eager to learn continuously and contribute meaningfully to the success of a company’s team.</p>
 
             <a download="" href={CV} className="button button--flex">Download CV 
               <svg
